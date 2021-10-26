@@ -1,0 +1,22 @@
+{
+     "ios": {
+         "debug": {
+             "codeSignIdentitiy": "iPhone Developer",
+             "provisioningProfile": "xxxxxxxxxxxxxxx"
+         },
+         "release": {
+             "codeSignIdentitiy": "iPhone Distribution",
+             "provisioningProfile": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+         }
+     },
+     "android": {
+         "release": {
+             "keystore": "key/xxxxxxxxxx.keystore",
+             "storePassword": "xxxxx",
+             "alias": "xxxxxx",
+             "password" : "xxxxx",
+             "keystoreType": "jks"
+         }
+     }
+ }
